@@ -7,13 +7,11 @@ using namespace RM;
 
 namespace RM {
 
-	class LteDemodulation:public BaseTask
-	{
-
-	public:
-		LteDemodulation(string params);
-		~LteDemodulation();
-		void runTask();
-	};
-}
-#endif 
+class LteDemodulation : public BaseTask {
+ public:
+  LteDemodulation(string params);
+  ~LteDemodulation();
+  void runTask();
+};
+}  // namespace RM
+#endif
